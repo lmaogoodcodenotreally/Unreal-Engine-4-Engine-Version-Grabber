@@ -3,12 +3,18 @@
 Dll that should grab the Version of ue4 that a game is running based on a sig.
 Only posting this on github because I think it will be easier for people to find it on here.
 
+⠀
+⠀
 # Reworked some stuff
 
+⠀
+⠀
 Added title to cmd, and added a prompt to copy-paste engine version faster for lazy ppl like me
 
 Lowered dll size
 
+⠀
+⠀
 ```
         File size         Ratio      Format      Name
    --------------------   ------   -----------   -----------
@@ -16,12 +22,16 @@ Lowered dll size
 ```
 # anti cheat and anti virus detections
 
+⠀
+⠀
 Basically any anticheat that detects dll injection
 
 and for av mostly shit av get false positive for it (who tf use Bkav pro)
 [3/71 detections](https://www.virustotal.com/gui/file/b51ccb9a1d09a455b2e6fe858814ea148c534e506faab89ddebaa319451e8299?nocache=1)
 
 
+⠀
+⠀
 
 | Antivirus Software                  | Detection Status             |
 | ----------------------------------- | ---------------------------- |
