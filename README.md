@@ -9,7 +9,8 @@ Added title to cmd, and added a prompt to copy-paste engine version faster for l
 
 Lowered dll size
 
-
+```
         File size         Ratio      Format      Name
    --------------------   ------   -----------   -----------
     113152 ->     25600   22.62%    win64/pe     EngineVersionGrabber.dll     
+```
