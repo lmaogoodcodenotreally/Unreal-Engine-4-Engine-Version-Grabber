@@ -26,7 +26,7 @@ Lowered dll size
 ⠀
 Basically any anticheat that detects dll injection
 
-and for av mostly shit av get false positive for it (who tf use Bkav pro)
+And concerning av mostly shit av get false positive for it (who tf use Bkav pro)
 
 [3/71 detections](https://www.virustotal.com/gui/file/b51ccb9a1d09a455b2e6fe858814ea148c534e506faab89ddebaa319451e8299?nocache=1)
 
