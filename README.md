@@ -89,7 +89,7 @@ Basically any anticheat that detects dll injection
 
 And concerning av mostly shit av get false positive for it (who tf use Bkav pro)
 
-[3/71 detections](https://www.virustotal.com/gui/file/8e2919c3967b5aa7e462f2a4973714ea2bd60179351e58c3f80a3b986fc11318?nocache=1)
+**[3/71 detections](https://www.virustotal.com/gui/file/8e2919c3967b5aa7e462f2a4973714ea2bd60179351e58c3f80a3b986fc11318?nocache=1)**
 
 
 ⠀
