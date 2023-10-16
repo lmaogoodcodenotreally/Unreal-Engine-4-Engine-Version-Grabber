@@ -43,7 +43,6 @@ public:
     {
         return Data;
     }
-
     std::string ToString() const
     {
         const auto length = std::wcslen(Data);
@@ -90,19 +89,22 @@ DWORD _stdcall InitEngineVersion(LPVOID)
     {
         FString* Engine = GetEngineVersion(&Result);
         std::cout << "EngineVer: " << Engine->ToString().c_str() << std::endl;
-        std::cout << "Do you want to copy the engine version to the clipboard? (Y/N): ";
+        std::cout << " " << std::endl;
+        std::cout << "Do you want to copy the engine version to the clipboard? (Y/n): "; // for lazy ppl like me x)
         char choice;
         std::cin >> choice;
         if (choice == 'Y' || choice == 'y')
         {
             std::string engineVersionStr = Engine->ToString();
             CopyToClipboard(engineVersionStr);
-            std::cout << "Engine version copied to clipboard." << std::endl;
+            std::cout << " " << std::endl;
+            std::cout << "Unreal Engine version copied to clipboard." << std::endl; 
         }
     }
     else
     {
-        std::cout << "Pattern Not Found" << std::endl;
+        std::cout << " " << std::endl;
+        std::cout << "Pattern Not Found. Make sure to run on an UnrealEngine App, or your version might be unsuported" << std::endl;
     }
     return NULL;
 }
