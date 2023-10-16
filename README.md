@@ -32,7 +32,6 @@ FString* GetEngineVersion(void* Result)
 {
     return reinterpret_cast<FString * (__fastcall*)(void*)>(addr_GetEngineVersion)(Result);
 }
-
 void CopyToClipboard(const std::string& text)
 {
     if (OpenClipboard(nullptr))
@@ -63,13 +62,9 @@ DWORD _stdcall InitEngineVersion(LPVOID)
     {
         FString* Engine = GetEngineVersion(&Result);
         std::cout << "EngineVer: " << Engine->ToString().c_str() << std::endl;
-
-        // Ask the user if they want to copy the engine version to the clipboard
         std::cout << "Do you want to copy the engine version to the clipboard? (Y/N): ";
-
         char choice;
         std::cin >> choice;
-
         if (choice == 'Y' || choice == 'y')
         {
             std::string engineVersionStr = Engine->ToString();
