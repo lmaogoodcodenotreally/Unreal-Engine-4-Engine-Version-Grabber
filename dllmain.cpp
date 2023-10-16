@@ -39,7 +39,6 @@ public:
 class FString : public TArray<wchar_t>
 {
 public:
-
     inline const wchar_t* c_str() const
     {
         return Data;
@@ -48,11 +47,8 @@ public:
     std::string ToString() const
     {
         const auto length = std::wcslen(Data);
-
         std::string str(length, '\0');
-
         std::use_facet<std::ctype<wchar_t>>(std::locale()).narrow(Data, Data + length, '?', &str[0]);
-
         return str;
     }
 };
@@ -94,13 +90,9 @@ DWORD _stdcall InitEngineVersion(LPVOID)
     {
         FString* Engine = GetEngineVersion(&Result);
         std::cout << "EngineVer: " << Engine->ToString().c_str() << std::endl;
-
-        // Ask the user if they want to copy the engine version to the clipboard
         std::cout << "Do you want to copy the engine version to the clipboard? (Y/N): ";
-
         char choice;
         std::cin >> choice;
-
         if (choice == 'Y' || choice == 'y')
         {
             std::string engineVersionStr = Engine->ToString();
@@ -122,7 +114,6 @@ BOOL __stdcall DllMain(HINSTANCE hModule, DWORD dwReason, LPVOID lpReserved)
     case DLL_PROCESS_ATTACH:
     {
         DisableThreadLibraryCalls(hModule);
-
         AllocConsole();
         ShowWindow(GetConsoleWindow(), SW_SHOW);
         FILE* fp;
@@ -138,6 +129,5 @@ BOOL __stdcall DllMain(HINSTANCE hModule, DWORD dwReason, LPVOID lpReserved)
         break;
     }
     }
-
     return TRUE;
 }
