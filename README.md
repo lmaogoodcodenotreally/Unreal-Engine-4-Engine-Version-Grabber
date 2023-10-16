@@ -6,3 +6,10 @@ Only posting this on github because I think it will be easier for people to find
 # Reworked some stuff
 
 Added title to cmd, and added a prompt to copy-paste engine version faster for lazy ppl like me
+
+Lowered dll size
+
+
+        File size         Ratio      Format      Name
+   --------------------   ------   -----------   -----------
+    113152 ->     25600   22.62%    win64/pe     EngineVersionGrabber.dll     
