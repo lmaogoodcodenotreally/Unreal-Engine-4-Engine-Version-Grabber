@@ -9,9 +9,9 @@ Only posting this on github because I think it will be easier for people to find
 
 ⠀
 ⠀
-Added title to cmd, and added a prompt to copy-paste engine version faster for lazy ppl like me
+> Added title to cmd, and added a prompt to copy-paste engine version faster for lazy ppl like me
 
-Lowered dll size
+**Lowered dll size, a lot.**
 
 ⠀
 ⠀
@@ -85,9 +85,9 @@ DWORD _stdcall InitEngineVersion(LPVOID)
 
 ⠀
 ⠀
-Basically any anticheat that detects dll injection
+Basically any anticheat that detects dll injection will detect it if use without bypass, however it's prove to work on some EAC games that I won't name 😊 (if bypassed proprely)
 
-And concerning av mostly shit av get false positive for it (who tf use Bkav pro)
+***And concerning av mostly shit av get false positive for it**(*who tf use Bkav pro*)
 
 **[3/71 detections](https://www.virustotal.com/gui/file/8e2919c3967b5aa7e462f2a4973714ea2bd60179351e58c3f80a3b986fc11318?nocache=1)**
 
