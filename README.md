@@ -84,7 +84,8 @@ DWORD _stdcall InitEngineVersion(LPVOID)
 # anti cheat and anti virus detections
 
 ⠀
-⠀
+Mostly depends on injection method, make sure that u use kernel / driver injection or payload because normal LoadLibraryW is detected on most games.
+
 Basically any anticheat that detects dll injection will detect it if use without bypass, however it's prove to work on some EAC games that I won't name 😊 (if bypassed proprely)
 
 ***And concerning av mostly shit av get false positive for it**(*who tf use Bkav pro*)
