@@ -1,14 +1,15 @@
-# V1.0
+# V1.1
 
 Dll that should grab the Version of ue4 that a game is running based on a sig.
 Only posting this on github because I think it will be easier for people to find it on here.
 
 **ALL CREDITS GOES TO RussellJerome, the original author of this code** I am just a lazy paster, thanks for the source <3
 ⠀
+
 I just reworked some stuff
 ⠀
-> Added title to cmd, and added a prompt to copy-paste engine version faster for lazy ppl like me
-
+> | 1.0 Added title to cmd, and added a prompt to copy-paste engine version faster for lazy ppl like me
+> | 1.1 Lowered file size 
 
 # Lowered dll size, a lot.
 
