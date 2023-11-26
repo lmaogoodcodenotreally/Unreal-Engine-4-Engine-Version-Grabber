@@ -11,7 +11,8 @@ Only posting this on github because I think it will be easier for people to find
 ⠀
 > Added title to cmd, and added a prompt to copy-paste engine version faster for lazy ppl like me
 
-**Lowered dll size, a lot.**
+
+# Lowered dll size, a lot.
 
 ⠀
 ⠀
