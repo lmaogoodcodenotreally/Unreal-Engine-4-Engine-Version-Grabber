@@ -5,9 +5,7 @@ Only posting this on github because I think it will be easier for people to find
 
 **ALL CREDITS GOES TO RussellJerome, the original author of this code** I am just a lazy paster, thanks for the source <3
 ⠀
-# Reworked some stuff
-
-⠀
+I just reworked some stuff
 ⠀
 > Added title to cmd, and added a prompt to copy-paste engine version faster for lazy ppl like me
 
